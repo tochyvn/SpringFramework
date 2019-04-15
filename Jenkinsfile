@@ -7,6 +7,7 @@ pipeline {
                 sh 'ls -la'
                 sh 'ls /var'
                 sh 'ls /home'
+                php -v
             }
         }
     }
