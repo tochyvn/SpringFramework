@@ -8,7 +8,7 @@ pipeline {
                 sh 'ls /var'
                 sh 'ls /home'
                 sh 'php -v'
-                sh 'java -v'
+                sh 'java -version && javac -version'
                 sh 'docker -v && docker-compose -v'
             }
         }
